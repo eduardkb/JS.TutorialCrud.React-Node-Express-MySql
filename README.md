@@ -1,9 +1,18 @@
-# JS-TutorCrudApp-Node.Express.MySql
+# JS-TutorCrudApp-React-Node-Express-MySQL
+
+## How to Run
+	Express runs backend and also seves the frontend end build folder from the aReactFrontend/build folder
+	- $ npm install			# install backend dependencies
+	- $ cd aReactFrontend
+	- $ npm install			# install frontend dependencies
+	- $ npm run build		# make frontend build
+	- $ cd ..
+	- $ node server.js		# run backend server (which runs also FE static index.js) see server.js.
 
 ## Project tutorial at:
     - https://www.bezkoder.com/react-node-express-mysql/
 
-## API's    
+## Backend API's 
     Methods	    Urls	                    Actions
     GET	        api/tutorials	            get all Tutorials
     GET	        api/tutorials/:id	        get Tutorial by id
@@ -16,5 +25,8 @@
 ## Starting Node App
     - npm init
 
-## Dependencies
+## Backend Dependencies
     - npm install express sequelize mysql2 cors --save
+	
+## Frontend Dependencies
+	-  npm install bootstrap axios
