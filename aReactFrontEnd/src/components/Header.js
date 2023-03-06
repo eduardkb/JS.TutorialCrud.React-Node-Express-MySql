@@ -3,7 +3,7 @@ import { Link } from "react-router-dom";
 function Header() {
     return (
         <nav className="navbar navbar-expand navbar-dark bg-dark">
-            <a href="/tutorials" className="navbar-brand">
+            <a href="https://www.eduardkb.website" className="navbar-brand">
                 Eduard KB
             </a>
             <div className="navbar-nav mr-auto">
