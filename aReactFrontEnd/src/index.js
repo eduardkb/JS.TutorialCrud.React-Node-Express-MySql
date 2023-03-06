@@ -1,15 +1,15 @@
-import React from "react";
-import ReactDOM from "react-dom";
+import React from 'react';
+import ReactDOM from 'react-dom/client';
+// without Express serving frontend page
+// import { BrowserRouter } from 'react-router-dom';
+// with express serving fe
 import { HashRouter } from "react-router-dom";
+import App from './App';
 
-import App from "./App";
-//import * as serviceWorker from "./serviceWorker";
 
-ReactDOM.render(
-  <HashRouter>
-    <App />
-  </HashRouter>,
-  document.getElementById("root")
-);
-
-//serviceWorker.unregister();
+const root = ReactDOM.createRoot(document.getElementById('root'));
+root.render(
+    <HashRouter>
+        <App />
+    </HashRouter>
+)
